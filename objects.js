@@ -1,4 +1,8 @@
-var playlist = {ZAYN: 'PILLOWTALK', John Mayer: 'Free Fallin', Adele: 'Hiding My Heart', Brandi Carlile: 'If There Was No You'}
+
+var playlist = {ZAYN: 'PILLOWTALK', 
+    John Mayer: 'Free Fallin', 
+    Adele: 'Hiding My Heart', 
+    Brandi Carlile: 'If There Was No You'}
 
 function updatePlaylist(obj, artistName, songTitle){
   updatedPlaylist = Object.assign({}, obj, {artistName: songTitle})
